@@ -14,7 +14,10 @@ class Board
 {
 
 public:
-    vector<Player*> players;
-    void initialize(vector<Player*>);
-    vector<string>getPlayerIds();
+    vector<Player *> players;
+    void initialize(vector<Player *>);
+    vector<string> getPlayerIds();
+
+private:
+    bool is_initialized;
 };
