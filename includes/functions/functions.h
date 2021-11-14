@@ -1,3 +1,4 @@
-#include <iostream>
+#include <string>
+using namespace std;
 
-int sum(int, int);
+string gen_random_string(int);
